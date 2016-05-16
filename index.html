@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">        
+        <h1 class="text-center">
+          <figure>
+            <img src="imgs/me.jpg" class="text-center" id="me">
+          </figure>
+        </h1>
+        <p>Me chamo <a href="/sobre.html"> Mateus </a> e criei esse blog a princípio para aprender a ferramenta <a href="https://jekyllrb.com/" target="_blank"> Jekyll</a>, pretendo aqui falar sobre desenvolvimento front-end, mobile, Java, PHP e Linux !</p>
+      </div>
+
+      <div class="col-xs-12 col-sm-8">
+      <h3 class="text-center">Últimos Posts</h3>
+        {% for post in site.posts limit:4  %}
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4>{{ post.title }}</h4>
+            <time>{{ post.date | date_to_string }}</time>
+          </div>
+
+          <div class="panel-body">
+            <p>{{ post.resumo }}</p>
+            
+            <a href="{{ post.url }}">
+              <button type="button" class="btn btn-default pull-right">
+                <span class="glyphicon glyphicon-plus-sign"></span>  Ver Mais
+              </button>
+            </a>
+          </div>
+        </div>
+        
+        {% endfor %}
+      </div>
+    </div>
+
+    </div>
+</section>

@@ -1,0 +1,57 @@
+body{
+	margin-top: 52px;
+	font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+	background-color: #ECF1F5;
+}
+
+.col-sm-offset-3 > h2, 
+.col-sm-offset-3 > h1 {
+	font-family: "Lobster", Helvetica, Arial, sans-serif;
+}
+
+
+/*Classes para posicionamento da imagem como backgrounda da section*/
+
+header{
+	padding: 25px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #FFF;
+	background-image: url('../imgs/bg.jpg');
+	margin-bottom: 10px;
+}
+
+/* Abaixo estão as configurações da seção de apresentação */
+#me {
+	width: 30%;
+	border-radius: 50%;
+}
+
+footer{
+	background-color: #000;
+	margin-bottom: 0px;
+	padding: 26px;
+	color: #FFF;
+}
+section{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*Media querie para ajustar o header de boas vindas*/
+@media screen and (min-width: 500px) {
+  header {
+	min-height: 300px;
+  }
+  header > div > div{
+	margin-top: 50px;
+  }
+}
+
+/*Abaixo estã as configurações da página de post */
+article {
+	margin: 20px 0px;
+}
+
+/*Abaixo estão as configurações da página sobre*/
