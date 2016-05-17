@@ -3,7 +3,7 @@ layout: post
 title:  "Primeiro Post!"
 date:   2016-05-16 01:04:40 -0300
 categories: jekyll update
-resumo: Este é um resumo do post, esse texto não deve ser considerado.
+resumo: Este é um resumo do primeiro post, esse texto não deve ser considerado.
 ---
 
 <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit ad, officia consequatur nesciunt facere saepe iure dolor incidunt! Repellendus nostrum est assumenda magni voluptates quia harum culpa, reprehenderit, autem?</div>

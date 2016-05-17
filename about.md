@@ -2,6 +2,7 @@
 layout: default
 title: Sobre
 permalink: /sobre.html
+pagina: sobre
 ---
 
 <div class="container">

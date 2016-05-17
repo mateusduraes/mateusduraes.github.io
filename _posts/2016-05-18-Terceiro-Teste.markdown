@@ -3,7 +3,7 @@ layout: post
 title:  "Terceiro Post!"
 date:   2016-05-16 01:08:00 -0300
 categories: jekyll update
-resumo: Este é um resumo do post, esse texto não deve ser considerado.
+resumo: Este é um resumo do terceiro post, esse texto não deve ser considerado.
 ---
 
 <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, sequi modi vitae incidunt quasi ut quis iste voluptates esse! Quod id repudiandae perferendis modi, aliquam autem necessitatibus iure quisquam voluptas.</div>

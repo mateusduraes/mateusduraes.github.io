@@ -2,10 +2,11 @@
 layout: default
 title: Lista de Posts
 permalink: /posts
+pagina: posts
 ---
 
 <div class="container">
-	<div class="row">
+	<div class="row">	
 		<div class="col-sm-8 col-sm-offset-2">
 {% for post in site.posts limit:4  %}
 	        <div class="panel panel-default">
