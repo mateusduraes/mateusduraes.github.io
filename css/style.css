@@ -1,3 +1,5 @@
+/*Abaixo estão algumas configurações comuns a todo o projeto*/
+
 body{
 	margin-top: 52px;
 	font-family: "Ubuntu", Helvetica, Arial, sans-serif;
@@ -10,7 +12,34 @@ body{
 }
 
 
-/*Classes para posicionamento da imagem como backgrounda da section*/
+p > a,
+p > a:visited {
+	border-bottom: 1px dashed;	
+	text-decoration: none;
+	color: #4169E1;
+}
+
+p > a:hover {
+	border-bottom: 2px dashed;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.link_footer{
+	border-bottom: 0;
+}
+.link_footer:hover{
+	border-bottom: 0;
+}
+
+footer{
+	background-color: #000;
+	margin-bottom: 0px;
+	padding: 26px;
+	color: #FFF;
+}
+
+/*Abaxo estão as configurações sobre o posicionamento da background-image do header*/
 
 header{
 	padding: 25px;
@@ -22,24 +51,32 @@ header{
 	margin-bottom: 10px;
 }
 
-/* Abaixo estão as configurações da seção de apresentação */
-#me {
+
+/* Abaixo estão as configurações da seção de apresentação (section) */
+
+#me{
 	width: 30%;
 	border-radius: 50%;
 }
 
-footer{
-	background-color: #000;
-	margin-bottom: 0px;
-	padding: 26px;
-	color: #FFF;
+a > #me,
+a > #me:visited {	
+	border: 2px solid #9E9696;
+	transition: width 1s ease;
 }
+
+a > #me:hover{
+	width: 34%;
+	transition: width 1s ease;
+}
+
 section{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-/*Media querie para ajustar o header de boas vindas*/
+
+/*Media querie para ajustar o header de boas vindas em resoluções acima de 500px de largura*/
 @media screen and (min-width: 500px) {
   header {
 	min-height: 300px;
@@ -49,9 +86,9 @@ section{
   }
 }
 
-/*Abaixo estã as configurações da página de post */
+/*Abaixo estão as configurações da página de post */
 article {
 	margin: 20px 0px;
 }
 
-/*Abaixo estão as configurações da página sobre*/
+
