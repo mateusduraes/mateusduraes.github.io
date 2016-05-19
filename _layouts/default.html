@@ -15,11 +15,56 @@
 
     <script src="/js/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+  <!-- Script para trocar o botão ativo do NAV -->
 	<script>
 		$(document).ready(function () {
 	        	$('.{{ page.pagina }}').addClass('active');
 	    });	
 	</script>
+  <!-- Scripts para trocar a imagem dos botões de redes sociais quando estão no estado 'hover', espera-se que esses 3 scripts sejam reduzidos a apenas um após maior conhecimento de JS e jQuery-->
+  <script>
+    $('#facebook').hover(
+
+      function(){ //Função do HandlerIn
+        $(this).find('img').attr('src', '/imgs/facebook_hover.png');
+      }, 
+
+      function (){ //Função do HandlerOut
+        $(this).find('img').attr('src', 'imgs/fb.png');
+      }
+
+    );
+  </script>
+
+  <script>
+    $('#github').hover(
+
+    function(){ //Função do HandlerIn para o github
+      $(this).find('img').attr('src', '/imgs/github_hover.png');
+    },
+
+    function(){ //Função do HandlerOut para o github
+      $(this).find('img').attr('src', '/imgs/github.png');
+    }
+
+    );
+  </script>
+
+  <script>
+    $('#email').hover(
+
+      function(){ //Função do HandlerIn para o email
+        $(this).find('img').attr('src' , '/imgs/email_hover.png');
+      },
+
+      function(){ //Função do HandlerOut para o email
+        $(this).find('img').attr('src', '/imgs/email.png');
+      }
+
+    );
+  </script>
+
+
   </body>
 
 </html>

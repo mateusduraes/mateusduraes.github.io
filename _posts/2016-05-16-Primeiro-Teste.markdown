@@ -2,7 +2,7 @@
 layout: post
 title:  "Primeiro Post!"
 date:   2016-05-16 01:04:40 -0300
-categories: jekyll update
+categories: linux
 resumo: Este é um resumo do primeiro post, esse texto não deve ser considerado.
 ---
 

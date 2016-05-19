@@ -2,7 +2,7 @@
 layout: post
 title:  "Segundo Post!"
 date:   2016-05-16 01:06:40 -0300
-categories: jekyll update
+categories: java
 resumo: Este é um resumo do segundo post, esse texto não deve ser considerado.
 ---
 
