@@ -20,6 +20,3 @@ markdown: kramdown
 # permalink: /:categories/:year/:month/:day/:title
 # permalink: /:year/:month/:day/:title
 permalink: /:title/
-paginate: 3
-paginate_path: "/mateusduraes.github.io/page:num"
-gems: [jekyll-paginate]
