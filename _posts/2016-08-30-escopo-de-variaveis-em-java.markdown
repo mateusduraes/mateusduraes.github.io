@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Escopo de variáveis em Java"
-date:   2016-08-30 22:34:56 -0300
+date:   2016-08-30 22:34:56
 categories: java
 resumo: Entenda o escopo de uma variável em Java, onde ela pode ou não ser acessada e conheça também a técnica do shadowing.
 ---
