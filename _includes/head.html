@@ -1,14 +1,19 @@
 <head>
   	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+  	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<!-- Facebook -->
+		<!-- Linguagem -->
+		<meta property="og:locale" content="pt_BR">
+		
+		<!-- Nome do Site -->
+		<meta property="og:site_name" content="{{ site.title }}">
+
 		<!-- Image -->
 		<meta property="og:image" content="http://mateusduraes.github.io/imgs/bg.jpg">
 		<meta property="og:image:type" content="image/jpeg">
-		<meta property="og:image:width" content="800">
-		<meta property="og:image:height" content="600">
+		<meta property="og:image:width" content="400">
+		<meta property="og:image:height" content="300">
 		
 		<!-- Title -->
 		<meta property="og:title" content="{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}" />
@@ -23,6 +28,7 @@
 		<meta property=”og:description” content= "Um blog sobre desenvolvimento. Encontre posts sobre Java, JavaScript, PHP, Linux e SQL" />
 		{% endif %}
 	<!-- Fim Facebook-->
+	
 
 	<title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
 
