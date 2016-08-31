@@ -37,6 +37,10 @@ console.log(posts);
 escondePosts();
 mostraPostsStart(postagem);
 
+if (posts.length <= 3){
+	$('.proxima-pagina').hide();
+}
+
 $('.proxima-pagina').click(function (){		
 
 	var inicio = postagem;

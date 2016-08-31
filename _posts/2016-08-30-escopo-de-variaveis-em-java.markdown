@@ -1,16 +1,19 @@
 ---
 layout: post
-title:  "Sexto Post"
-date:   2016-08-30 01:02:03 -0300
-categories: jekyll update
-resumo: Este é um resumo do sexto post, esse texto não deve ser considerado.
+title:  "Escopo de variáveis em Java"
+date:   2016-08-30 22:34:56 -0300
+categories: java
+resumo: Entenda o escopo de uma variável em Java, onde ela pode ou não ser acessada e conheça também a técnica do shadowing.
 ---
+### Série de posts sobre a certificação 1Z0-808 (Java SE 8 Programmer I)
 
-# Defina o escopo das variáveis
+Olá pessoal, estou me preparando para a certificação Java 1Z0-808 e esse exame possui vários tópicos, pretendo postar aqui no blog sobre aqueles que eu achar mais interessante ou que alguém pedir. Não entrarei aqui em detalhes sobre uma certificação ser boa ou não, mas vale lembrar que, no fim das contas, teremos mais conhecimento independente do resultado (minha opinião).
 
-## Escopo de Vida da Variável
+Caso você tenha curiosidade sobre a certificação, preço, tópicos para o exame, etc você poderá encontrar informações da mesma <a href="https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-808" target="_blank">aqui</a>
 
-#### Uma variável em Java tem o seu escopo de vida. Ok, mas, o que é isso?
+Por fim, no post de hoje irei falar sobre o escopo de variáveis em Java, que por sinal, é o primeiro tópico do exame.
+
+### Uma variável em Java tem o seu escopo de vida. Ok, mas, o que é isso?
 
 O escopo de vida de uma variável, é aquele lugar em que ela pode ser referenciada (chamada, manipulada), esse escopo, por sinal, é o mesmo em que ela é declarada. Isso significa que, fora desse escopo, a variável não pode ser referenciada, é como se ela não existisse.
 Por exemplo: Uma variável declarada dentro de um ```if```, só é válida dentro do ```if```. Uma variável declarada na inicialização do comando ```for```, só é válida dentro dele. Observe o código abaixo:
@@ -55,7 +58,7 @@ class Exemplo {
 }
 ```
 
-#### Técnica do Shadowing
+### Técnica do Shadowing
 
 A técnica do shadowing é muito importante, pois, mesmo conhecendo o escopo das variáveis, podemos nos confundir por causa do shadowing. Veja o exemplo abaixo:
 
@@ -70,8 +73,8 @@ class Exemplo {
 }
 ```
 
-Ao compilar e executar esse código, percebe-se que a saída foi "abc", mas, o que aconteceu com a nossa variável estática do tipo int? 
-Ela foi escondida pelo shadowing, sempre que existem duas variáveis com um mesmo nome, a JVM irá optar por aquela de menor escopo. Repare que se comentarmos a linha que declaramos e inicializamos a String, teremos a saída desejada.
+Ao compilar e executar esse código, percebe-se que a saída foi `"abc"`, mas, o que aconteceu com a nossa variável estática do tipo `int`? 
+Ela foi escondida pelo shadowing, sempre que existem duas variáveis com um mesmo nome, a JVM irá optar por aquela de menor escopo. Repare que se comentarmos a linha que declaramos e inicializamos a `String`, teremos a saída desejada.
 
 ```java
 class Exemplo {
