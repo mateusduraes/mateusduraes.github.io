@@ -19,9 +19,9 @@
 		
 		<!-- Title -->
 		{% if page.title %}
-			<meta property="og:title" content= "{{ page.title | prepend: site.title }}" />		
+			<meta property="og:title" content= "{{ page.title | prepend: 'Blog de Desenvolvimento - ' }}" />		
 		{% else %}
-			<meta property="og:title" content= "{{ 'Blog de Desenvolvimento' | prepend: site.title }}" />
+			<meta property="og:title" content= "{{ ' - Blog de Desenvolvimento' | prepend: site.title }}" />
 		{% endif %}
 		
 
