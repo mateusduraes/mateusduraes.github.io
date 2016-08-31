@@ -18,7 +18,7 @@
 		<meta property="og:image:height" content="300">
 		
 		<!-- Title -->
-		<meta property="og:title" content="{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}" />
+		<meta property="og:title" content="{% if page.title %} {{ page.title | prepend: 'Blog de Desenvolvimento - '}} {% else %} {{ site.title | append ' - Blog de Desenvolvimento'}} {% endif %}" />
 
 		<!-- Tipo -->
 		<meta property="og:type" content="blog" />
