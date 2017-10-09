@@ -1,48 +1,25 @@
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
-
-  	<meta charset="utf-8">
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<!-- Facebook -->
-		<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-		<!-- Linguagem -->
-		<meta property="og:locale" content="pt_BR">
-		
-		<!-- Nome do Site -->
-		<meta property="og:site_name" content="{{ site.title }}">
-
-		<!-- Image -->
-		<meta property="og:image" content="http://mateusduraes.github.io/imgs/bg.jpg">
-		<meta property="og:image:type" content="image/jpeg">
-		<meta property="og:image:width" content="400">
-		<meta property="og:image:height" content="300">
-		
-		<!-- Title -->
-		{% if page.title %}
-			<meta property="og:title" content= "{{ page.title | prepend: 'Blog de Desenvolvimento - ' }}" />		
-		{% else %}
-			<meta property="og:title" content= "{{ ' - Blog de Desenvolvimento' | prepend: site.title }}" />
-		{% endif %}
-		
-
-		<!-- Tipo -->
-		<meta property="og:type" content="blog" />
-		
-		<!-- Resumo -->
-		{% if page.resumo %}
-		<meta property="og:description" content= "{{ page.resumo }}" />
-		{% else %}
-		<meta property="og:description" content= "Um blog sobre desenvolvimento. Encontre posts sobre Java, JavaScript, PHP, Linux e SQL" />
-		{% endif %}
-	<!-- Fim Facebook-->
-	
-
-	<title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
-
-	<link rel="shortcut icon" href="/imgs/favicon-compressor.png" type="image/x-icon">
-	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
-	<link rel="stylesheet" href="{{ "/bootstrap/bootstrap.min.css" | prepend: site.baseurl  }}">
-  	<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+	<meta name="description" content="{{ page.description }}">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
+	<link rel="apple-touch-icon" href="{{ "/assets/img/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/img/favicon/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ "/assets/img/favicon/apple-touch-icon-114x114.png" | prepend: site.baseurl }}">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+	<!-- Styles -->
+	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 </head>

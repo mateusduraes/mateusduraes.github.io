@@ -1,32 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+{% include head.html %}
+<body>
 
-  {% include head.html %}
-
-  <body>
-    {% include nav.html %}
-    {% include header.html %}
-
-   
-        {{ content }}
-     
-
-    {% include footer.html %}
-
-    <script src="/js/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-  <!-- Script para trocar o botão ativo do NAV -->
-  <script>
-    $(document).ready(function () {
-            $('.{{ page.pagina }}').addClass('active');
-      }); 
-  </script>
-
-  <!-- Imports -->
-  <script src="/js/paginacao.js" ></script>
-  <script src="/js/redes-sociais.js"></script>
-
-
-  </body>
-
+  <div class="wrapper">
+    {{ content }}
+  </div>
+  
+  {% include analytics.html %}
+</body>
 </html>

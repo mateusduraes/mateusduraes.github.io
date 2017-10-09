@@ -1,43 +1,19 @@
 ---
-layout: default
-pagina: home
+layout: main
 ---
+{% for post in paginator.posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
 
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-4">        
-        <h1 class="text-center">
-          <figure>
-            <a href="/sobre.html"><img src="imgs/me.jpg" class="text-center" id="me"></a>
-          </figure>
-        </h1>
-        <p>Me chamo Mateus e criei esse blog a princípio para aprender a ferramenta <a href="https://jekyllrb.com/" target="_blank"> Jekyll</a>, pretendo aqui falar sobre desenvolvimento e compartilhar o que aprendo no dia a dia!</p>
-        <p>As tecnologias que você provavelmente irá encontrar aqui serão Java, PHP, JavaScript, Linux e SQL.<br/>Bem vindo!</p>
-      </div>
-
-      <div class="col-xs-12 col-sm-8">
-      <h3 class="text-center">Últimos Posts</h3>
-        {% for post in site.posts limit:4  %}
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>            
-            <time>{{ post.date | date_to_string }}</time>                     
-          </div>
-
-          <div class="panel-body">
-            <p>{{ post.resumo }}</p>
-            <!--
-            <div class="pull-right">
-              <p>Tag: <strong><a href="#" class="tag">{{ post.categories }}</a></strong></p>
-            </div> 
-            -->
-          </div>
-        </div>
-        
-        {% endfor %}
-      </div>
-    </div>
-
-    </div>
-</section>
+{% include pagination.html %}

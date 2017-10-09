@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Escopo de variáveis em Java"
-date:   2016-08-30 22:34:56
-categories: java
-resumo: Entenda o escopo de uma variável em Java, onde ela pode ou não ser acessada e conheça também a técnica do shadowing.
+title: Escopo de variáveis em Java
+date: 2016-08-30 22:34:56
+description: Entenda o escopo de uma variável em Java, onde ela pode ou não ser acessada e conheça também a técnica do shadowing. # Add post description (optional)
+img: java-scope.jpg # Add image post (optional)
+tags: [java, certificacao]
 ---
 ### Série de posts sobre a certificação 1Z0-808 (Java SE 8 Programmer I)
 
@@ -19,7 +20,7 @@ O escopo de vida de uma variável, é aquele lugar em que ela pode ser referenci
 Por exemplo: Uma variável declarada dentro de um ```if```, só é válida dentro do ```if```. Uma variável declarada na inicialização do comando ```for```, só é válida dentro dele. Observe o código abaixo:
 
 
-```java
+{% highlight java %}
 class Exemplo {
 	public static void main (String [] args){	
 		for(int i = 0; i < 10; i++){
@@ -28,13 +29,14 @@ class Exemplo {
 		System.out.printn(i); //Erro de compilação
 	}
 }
-```
+{% endhighlight %}
+
 
 Variáveis que são recebidas como parâmetros em métodos, também só são válidas dentro do método.
 
 Variáveis com o mesmo nome podem existir, desde que não estejam no mesmo escopo. Um bom exemplo é o método ```setNome()``` na classe abaixo.
 
-```java
+{% highlight java %}
 class Pessoa {
 	private String nome;
 
@@ -42,11 +44,12 @@ class Pessoa {
 		this.nome = nome;
 	}
 }
-```
+{% endhighlight %}
+
 
 Por outro lado, nesse segundo exemplo, já temos um erro de compilação, pois por mais que as variáveis sejam uma de instância e outra estática, elas são definidas no mesmo escopo, o que causa um erro de compilação.
 
-```java
+{% highlight java %}
 class Exemplo {
 	String a;
 	static String a;
@@ -56,13 +59,13 @@ class Exemplo {
 		// Erro de compilação
 	}
 }
-```
+{% endhighlight %}
 
 ### Técnica do Shadowing
 
 A técnica do shadowing é muito importante, pois, mesmo conhecendo o escopo das variáveis, podemos nos confundir por causa do shadowing. Veja o exemplo abaixo:
 
-```java
+{% highlight java %}
 class Exemplo {
 	static int a = 4;
 
@@ -71,12 +74,13 @@ class Exemplo {
 		System.out.println(a); // "abc"
 	}
 }
-```
+{% endhighlight %}
+
 
 Ao compilar e executar esse código, percebe-se que a saída foi `"abc"`, mas, o que aconteceu com a nossa variável estática do tipo `int`? 
 Ela foi escondida pelo shadowing, sempre que existem duas variáveis com um mesmo nome, a JVM irá optar por aquela de menor escopo. Repare que se comentarmos a linha que declaramos e inicializamos a `String`, teremos a saída desejada.
 
-```java
+{% highlight java %}
 class Exemplo {
 	static int a = 4;
 
@@ -85,4 +89,5 @@ class Exemplo {
 		System.out.println(a); // 4
 	}
 }
-```
+{% endhighlight %}
+

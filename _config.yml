@@ -1,22 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: M Durães
-email: mduraes1994@gmail.com
+title: Hello, world! I'm Mateus Durães
 description: > # this means to ignore newlines until "baseurl:"
-  Um blog sobre tecnologia, seja bem vindo
+  Desenvolvedor frontend, trabalhando com Angular e Ionic.
+permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mateusduraes.github.io" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username: mateusduraes
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
+# Author Settings
+author: Mateus Durães # add your name
+author-img: mateus.jpg # add your photo
+about-author: Desenvolvedor frontend, trabalhando com Angular e Ionic. # add description
+twitter: # add your Twitter handle
+facebook: # add your Facebook handle
+github: mateusduraes # add your Github handle
+linkedin: https://www.linkedin.com/in/mateus-ferreira-durães-79b584122 # add your Linkedin handle
+email: mduraes1994@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: mateusduraes-github-io # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
 markdown: kramdown
-# permalink: /:categories/:year/:month/:day/:title
-# permalink: /:year/:month/:day/:title
-permalink: /:title/
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Gems
+gems: [jekyll-paginate]
+
+paginate: 4
+paginate_path: "/page/:num"
+
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
