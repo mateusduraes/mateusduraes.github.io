@@ -1,6 +1,6 @@
-title: Hello, world! I'm Mateus Durães
+title: Mateus Durães - Desenvolvedor Front End
 description: > # this means to ignore newlines until "baseurl:"
-  Desenvolvedor frontend, trabalhando com Angular e Ionic.
+  Desenvolvedor front end, trabalhando com Angular e Ionic.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -8,7 +8,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Author Settings
 author: Mateus Durães # add your name
 author-img: mateus.jpg # add your photo
-about-author: Desenvolvedor frontend, trabalhando com Angular e Ionic. # add description
+about-author: Desenvolvedor front end, trabalhando com Angular e Ionic. # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
 github: mateusduraes # add your Github handle
