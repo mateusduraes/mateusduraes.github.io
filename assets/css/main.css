@@ -437,330 +437,331 @@ template {
 }
 
 .highlight {
-  background-color: #faf9f9;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  margin: 0;
-}
-
-.highlighter-rouge {
-  color: #ce887b;
-  font-weight: 400;
-  border: 1px solid #607D8B;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  padding: 0.1rem 0.5rem;
-}
-
-.highlight .hll {
-  background-color: #ffc;
+  background: #ffffff;
 }
 
 .highlight .c {
-  color: #999;
+  color: #999988;
+  font-style: italic;
 }
 
 /* Comment */
 .highlight .err {
-  color: #a00;
-  background-color: #faa;
+  color: #a61717;
+  background-color: #e3d2d2;
 }
 
 /* Error */
 .highlight .k {
-  color: #069;
+  font-weight: bold;
 }
 
 /* Keyword */
 .highlight .o {
-  color: #555;
+  font-weight: bold;
 }
 
 /* Operator */
 .highlight .cm {
-  color: #09f;
+  color: #999988;
   font-style: italic;
 }
 
 /* Comment.Multiline */
 .highlight .cp {
-  color: #099;
+  color: #999999;
+  font-weight: bold;
 }
 
 /* Comment.Preproc */
 .highlight .c1 {
-  color: #999;
+  color: #999988;
+  font-style: italic;
 }
 
 /* Comment.Single */
 .highlight .cs {
-  color: #999;
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* Comment.Special */
 .highlight .gd {
-  background-color: #fcc;
-  border: 1px solid #c00;
+  color: #000000;
+  background-color: #ffdddd;
 }
 
 /* Generic.Deleted */
+.highlight .gd .x {
+  color: #000000;
+  background-color: #ffaaaa;
+}
+
+/* Generic.Deleted.Specific */
 .highlight .ge {
   font-style: italic;
 }
 
 /* Generic.Emph */
 .highlight .gr {
-  color: #f00;
+  color: #aa0000;
 }
 
 /* Generic.Error */
 .highlight .gh {
-  color: #030;
+  color: #999999;
 }
 
 /* Generic.Heading */
 .highlight .gi {
-  background-color: #cfc;
-  border: 1px solid #0c0;
+  color: #000000;
+  background-color: #ddffdd;
 }
 
 /* Generic.Inserted */
+.highlight .gi .x {
+  color: #000000;
+  background-color: #aaffaa;
+}
+
+/* Generic.Inserted.Specific */
 .highlight .go {
-  color: #aaa;
+  color: #888888;
 }
 
 /* Generic.Output */
 .highlight .gp {
-  color: #009;
+  color: #555555;
 }
 
 /* Generic.Prompt */
+.highlight .gs {
+  font-weight: bold;
+}
+
 /* Generic.Strong */
 .highlight .gu {
-  color: #030;
+  color: #aaaaaa;
 }
 
 /* Generic.Subheading */
 .highlight .gt {
-  color: #9c6;
+  color: #aa0000;
 }
 
 /* Generic.Traceback */
 .highlight .kc {
-  color: #069;
+  font-weight: bold;
 }
 
 /* Keyword.Constant */
 .highlight .kd {
-  color: #069;
+  font-weight: bold;
 }
 
 /* Keyword.Declaration */
-.highlight .kn {
-  color: #069;
-}
-
-/* Keyword.Namespace */
 .highlight .kp {
-  color: #069;
+  font-weight: bold;
 }
 
 /* Keyword.Pseudo */
 .highlight .kr {
-  color: #069;
+  font-weight: bold;
 }
 
 /* Keyword.Reserved */
 .highlight .kt {
-  color: #078;
+  color: #445588;
+  font-weight: bold;
 }
 
 /* Keyword.Type */
 .highlight .m {
-  color: #f60;
+  color: #009999;
 }
 
 /* Literal.Number */
 .highlight .s {
-  color: #d44950;
+  color: #d14;
 }
 
 /* Literal.String */
 .highlight .na {
-  color: #4f9fcf;
+  color: #008080;
 }
 
 /* Name.Attribute */
 .highlight .nb {
-  color: #366;
+  color: #0086B3;
 }
 
 /* Name.Builtin */
 .highlight .nc {
-  color: #0a8;
+  color: #445588;
+  font-weight: bold;
 }
 
 /* Name.Class */
 .highlight .no {
-  color: #360;
+  color: #008080;
 }
 
 /* Name.Constant */
-.highlight .nd {
-  color: #99f;
-}
-
-/* Name.Decorator */
 .highlight .ni {
-  color: #999;
+  color: #800080;
 }
 
 /* Name.Entity */
 .highlight .ne {
-  color: #c00;
+  color: #990000;
+  font-weight: bold;
 }
 
 /* Name.Exception */
 .highlight .nf {
-  color: #c0f;
+  color: #990000;
+  font-weight: bold;
 }
 
 /* Name.Function */
-.highlight .nl {
-  color: #99f;
-}
-
-/* Name.Label */
 .highlight .nn {
-  color: #0cf;
+  color: #555555;
 }
 
 /* Name.Namespace */
 .highlight .nt {
-  color: #2f6f9f;
+  color: #000080;
 }
 
 /* Name.Tag */
 .highlight .nv {
-  color: #033;
+  color: #008080;
 }
 
 /* Name.Variable */
 .highlight .ow {
-  color: #000;
+  font-weight: bold;
 }
 
 /* Operator.Word */
 .highlight .w {
-  color: #bbb;
+  color: #bbbbbb;
 }
 
 /* Text.Whitespace */
 .highlight .mf {
-  color: #f60;
+  color: #009999;
 }
 
 /* Literal.Number.Float */
 .highlight .mh {
-  color: #f60;
+  color: #009999;
 }
 
 /* Literal.Number.Hex */
 .highlight .mi {
-  color: #f60;
+  color: #009999;
 }
 
 /* Literal.Number.Integer */
 .highlight .mo {
-  color: #f60;
+  color: #009999;
 }
 
 /* Literal.Number.Oct */
 .highlight .sb {
-  color: #c30;
+  color: #d14;
 }
 
 /* Literal.String.Backtick */
 .highlight .sc {
-  color: #c30;
+  color: #d14;
 }
 
 /* Literal.String.Char */
 .highlight .sd {
-  color: #c30;
-  font-style: italic;
+  color: #d14;
 }
 
 /* Literal.String.Doc */
 .highlight .s2 {
-  color: #c30;
+  color: #d14;
 }
 
 /* Literal.String.Double */
 .highlight .se {
-  color: #c30;
+  color: #d14;
 }
 
 /* Literal.String.Escape */
 .highlight .sh {
-  color: #c30;
+  color: #d14;
 }
 
 /* Literal.String.Heredoc */
 .highlight .si {
-  color: #a00;
+  color: #d14;
 }
 
 /* Literal.String.Interpol */
 .highlight .sx {
-  color: #c30;
+  color: #d14;
 }
 
 /* Literal.String.Other */
 .highlight .sr {
-  color: #3aa;
+  color: #009926;
 }
 
 /* Literal.String.Regex */
 .highlight .s1 {
-  color: #c30;
+  color: #d14;
 }
 
 /* Literal.String.Single */
 .highlight .ss {
-  color: #fc3;
+  color: #990073;
 }
 
 /* Literal.String.Symbol */
 .highlight .bp {
-  color: #366;
+  color: #999999;
 }
 
 /* Name.Builtin.Pseudo */
 .highlight .vc {
-  color: #033;
+  color: #008080;
 }
 
 /* Name.Variable.Class */
 .highlight .vg {
-  color: #033;
+  color: #008080;
 }
 
 /* Name.Variable.Global */
 .highlight .vi {
-  color: #033;
+  color: #008080;
 }
 
 /* Name.Variable.Instance */
 .highlight .il {
-  color: #f60;
+  color: #009999;
 }
 
 /* Literal.Number.Integer.Long */
-.css .o,
-.css .o + .nt,
-.css .nt + .nt {
-  color: #999;
+.post > .highlight .lineno {
+  color: #ccc;
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+
+.post > .highlight pre code {
+  display: block;
+  white-space: pre;
+  overflow-x: auto;
+  word-wrap: normal;
 }
 
 *, *::after, *::before {
@@ -860,12 +861,13 @@ pre code {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #333030;
 }
 
 .about {
   margin: 0 0 40px;
   text-align: center;
+  color: #ffffff;
 }
 
 .about .cover-author-image {
@@ -875,7 +877,7 @@ pre code {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
+  background-color: #4d4949;
 }
 
 .about img {
@@ -902,7 +904,7 @@ pre code {
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #333030;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -915,15 +917,14 @@ pre code {
           transform: translateX(-50%);
   bottom: 0;
   display: block;
-  width: 7px;
-  height: 7px;
-  -webkit-border-radius: 100%;
-          border-radius: 100%;
-  background-color: #515151;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .about p {
-  font-size: 16px;
+  padding-top: 5px;
+  font-size: .8rem;
   margin: 0 0 10px;
 }
 
@@ -950,7 +951,7 @@ pre code {
 
 .contact .contact-title {
   position: relative;
-  color: #333030;
+  color: #ffffff;
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -970,7 +971,7 @@ pre code {
   position: absolute;
   top: 50%;
   left: 0;
-  background-color: #515151;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .contact .contact-title::after {
@@ -985,7 +986,7 @@ pre code {
   position: absolute;
   top: 50%;
   right: 0;
-  background-color: #515151;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .contact ul {
@@ -1005,7 +1006,7 @@ pre code {
 }
 
 .contact ul li a {
-  color: #515151;
+  color: rgba(255, 255, 255, 0.3);
   display: block;
   padding: 5px;
   font-size: 18px;
@@ -1015,7 +1016,7 @@ pre code {
 }
 
 .contact ul li a:hover {
-  color: #333030;
+  color: #ffffff;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
@@ -1025,6 +1026,7 @@ footer .copyright {
   font-size: 14px;
   text-align: center;
   margin: 0;
+  color: #ffffff;
 }
 
 .post {
