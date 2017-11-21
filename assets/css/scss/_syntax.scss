@@ -1,4 +1,15 @@
-.highlight  { background: #ffffff; }
+.highlight  { 
+    background: #ffffff;
+    max-width: 70vw;    
+}
+
+@media only screen and (max-width: 992px) {
+    .highlight {
+        max-width: 50vw;
+    }
+}
+
+
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

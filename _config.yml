@@ -28,7 +28,7 @@ plugins_dir:
   - jekyll-paginate
 
 # Gems
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 paginate: 4
 paginate_path: "/page/:num"

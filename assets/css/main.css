@@ -438,6 +438,13 @@ template {
 
 .highlight {
   background: #ffffff;
+  max-width: 70vw;
+}
+
+@media only screen and (max-width: 992px) {
+  .highlight {
+    max-width: 50vw;
+  }
 }
 
 .highlight .c {

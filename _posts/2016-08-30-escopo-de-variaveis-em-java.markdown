@@ -20,31 +20,12 @@ O escopo de vida de uma variável, é aquele lugar em que ela pode ser referenci
 Por exemplo: Uma variável declarada dentro de um ```if```, só é válida dentro do ```if```. Uma variável declarada na inicialização do comando ```for```, só é válida dentro dele. Observe o código abaixo:
 
 
-{% highlight java %}
-class Exemplo {
-	public static void main (String [] args){	
-		for(int i = 0; i < 10; i++){
-			System.out.println(i);
-		}
-		System.out.printn(i); //Erro de compilação
-	}
-}
-{% endhighlight %}
+
 
 
 Variáveis que são recebidas como parâmetros em métodos, também só são válidas dentro do método.
 
 Variáveis com o mesmo nome podem existir, desde que não estejam no mesmo escopo. Um bom exemplo é o método ```setNome()``` na classe abaixo.
-
-{% highlight java %}
-class Pessoa {
-	private String nome;
-
-	public void setNome(String nome){
-		this.nome = nome;
-	}
-}
-{% endhighlight %}
 
 
 Por outro lado, nesse segundo exemplo, já temos um erro de compilação, pois por mais que as variáveis sejam uma de instância e outra estática, elas são definidas no mesmo escopo, o que causa um erro de compilação.
