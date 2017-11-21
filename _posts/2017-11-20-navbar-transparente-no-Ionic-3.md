@@ -27,7 +27,7 @@ Você deverá ver este resultado se tudo funcionou normalmente.
   <img src="{{site.baseurl}}/assets/img/transparent-navbar/ionic-initial.png" alt="Projeto inicial">
 </p>
 
-Ok, agora, na página ```home``` que foi gerada, iremos adicionar uma imagme de background. Então, no arquivo ```home.scss``` faça a seguinte alteração: 
+Ok, agora, na página ```home``` que foi gerada, iremos adicionar uma imagem de background. Então, no arquivo ```home.scss``` faça a seguinte alteração: 
 
 {% highlight scss %}
 page-home {
@@ -62,7 +62,7 @@ iremos adicionar a diretiva ```fullscreen``` ao nosso ion-content. Essa diretiva
 
 
 
-Repare que, mesmo colocando a diretiva ```fullscreen``` o nosso background ainda não se sobrepõe ao ```navbar```, pois é nele que iremos trabalhar agora.
+Repare que, mesmo colocando a diretiva ```fullscreen``` o nosso background ainda não se sobrepõe ao ```navbar```, pois é nele que iremos trabalhar a seguir.
 
 
 Agora, iremos adicionar uma segunda diretiva, que é a diretiva ```transparent```, esta, por sua vez, deve ser adiciona ao navbar.
