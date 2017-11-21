@@ -29,7 +29,7 @@ Você deverá ver este resultado se tudo funcionou normalmente.
 
 Ok, agora, na página ```home``` que foi gerada, iremos adicionar uma imagme de background. Então, no arquivo ```home.scss``` faça a seguinte alteração: 
 
-{% highlight html %}
+{% highlight scss %}
 page-home {
   ion-content {
     background: url('https://i.pinimg.com/736x/7e/ab/f1/7eabf13f8841c2e99366ae661560d5dd.jpg');
