@@ -140,4 +140,6 @@ Este foi um tutorial bem rápido e a ideia não foi explicar a API do **Googlema
 
 Para entender mais da API do **Googlemaps** você pode acessar diretamente a [documentação do Google](https://developers.google.com/maps/documentation/javascript/tutorial?hl=pt-br), e, é claro que, todos esses métodos estarão disponíveis para serem utilizados na estrutura que instalamos no projeto.
 
+Se você ficou com alguma dúvida sinta-se à vontade para perguntar, de qualquer forma o código deste exemplo está no meu [github](https://github.com/mateusduraes/ionic-4-googlemaps).
+
 Obrigado e até a próxima! :+1:
