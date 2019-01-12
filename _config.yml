@@ -1,6 +1,6 @@
-title: Mateus Durães - Desenvolvedor Front End
+title: Mateus Durães - Desenvolvedor Fullstack
 description: > # this means to ignore newlines until "baseurl:"
-  Desenvolvedor front end, trabalhando com Angular e Ionic.
+  Desenvolvedor Fullstack JavaScript, trabalhando com Angular, Ionic, NodeJs e Firebase.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -8,7 +8,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Author Settings
 author: Mateus Durães # add your name
 author-img: mateus.jpg # add your photo
-about-author: Desenvolvedor front end, trabalhando com Angular e Ionic. # add description
+about-author: Desenvolvedor Fullstack JavaScript, trabalhando com Angular, Ionic, NodeJs e Firebase. # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
 github: mateusduraes # add your Github handle
