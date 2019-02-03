@@ -74,20 +74,20 @@ Para impedir isso, vamos instalar o husky no projeto e configurar os nossos hook
 
 Com o husky instalado, edite o arquivo **package.json** para ter a seguinte estrutura **adicionada** a ele.
 ```json
-  // package.json
   {
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint", // Irá executar o lint antes de cada commit
-      "pre-push": "npm run test", // Irá executar os tests antes de cada push
+      "pre-commit": "npm run lint", 
+      "pre-push": "npm run test"
       }
     }
   }
 ```
 
+Dessa forma temos configurado o evento de **pre-commit** para executar o lint e o evento de **pre-push** para executar os testes do projeto.
+
 Claro que, você pode customizar a sua configuração conforme necessário, para que o nosso exemplo funcione corretamente, é necessário que seu **package.json** também tenha a configuração dos scripts. Segue um exemplo da sessão de scripts do **package.json** de um dos meus projetos:
 ```json
-  // package.json
   {
     "scripts": {
       "test": "gulp validate",
