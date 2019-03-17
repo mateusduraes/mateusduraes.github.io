@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Desenvolvedor Fullstack JavaScript, trabalhando com Angular, Ionic, NodeJs e Firebase.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mateusduraes.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author: Mateus Durães # add your name
