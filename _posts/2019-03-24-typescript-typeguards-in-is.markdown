@@ -2,7 +2,7 @@
   layout: post
   title: Type Guards com In & Is
   date: 2019-03-24 20:00:00
-  description: Melhore a legibilidade do código com este recurso do TypeScript!
+  description: Conheça duas técnicas de Type Guard
   img: typescript-series/numeric-separator/post-image.png
   tags: [codequality, goodpractices, ts, typescript, typescriptseries] 
 ---
