@@ -9,6 +9,11 @@
 
 Olá, esse é o **primeiro post** de uma **série de posts** que irei fazer sobre recursos interessantes e pouco utilizados do [TypeScript](https://www.typescriptlang.org/) :sunglasses: 
 
+> Update do futuro :joy:, alguns posts já estão prontos e você pode acessá-los através dos links abaixo
+  * [Numeric Seperator](/typescript-numeric-separator) 
+  * [Typeguards com o In e Is operators](/typescript-typeguards-in-is/)
+  * [Partial Type](/typescript-partial-type/)
+
 Então vamos lá! É hora de conhecer este recurso pouco utilizado e que pode tornar seu código mais legível em algumas situações.
 
 É muito comum ter situações de código onde temos constantes numéricas com um valor muito alto. Como no exemplo abaixo:

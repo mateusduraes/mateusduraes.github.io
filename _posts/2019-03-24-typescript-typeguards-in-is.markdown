@@ -8,7 +8,11 @@
 ---
 
 Olá, esse é o **segundo post** de uma **série de posts** que estou fazendo sobre TypeScript.
-O primeiro post foi sobre **Numeric Separator** e você pode acessar [aqui](/typescript-numeric-separator).
+
+> Update do futuro :joy:, alguns posts já estão prontos e você pode acessá-los através dos links abaixo
+  * [Numeric Seperator](/typescript-numeric-separator) 
+  * [Typeguards com o In e Is operators](/typescript-typeguards-in-is/)
+  * [Partial Type](/typescript-partial-type/)
 
 Hoje vou abordar o uso do **In** e do **Is** como formas de type guards em contextos de código genérico.
 
