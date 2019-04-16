@@ -882,12 +882,11 @@ footer .copyright {
 }
 
 .post .post-thumbnail {
-  width: 30%;
+  width: 250px;
   max-width: 100%;
-  min-height: 11rem;
+  min-height: 200px;
   -webkit-background-size: cover;
           background-size: cover;
-  background-position: 50% 50%;
 }
 
 .post .post-content {
@@ -1105,6 +1104,7 @@ a.newer-posts:hover {
   }
   .post .post-thumbnail {
     width: 100%;
+    min-height: 250px;
   }
   .post .post-content {
     width: 100%;
@@ -1196,6 +1196,7 @@ a.newer-posts:hover {
   }
   .post .post-thumbnail {
     width: 100%;
+    min-height: 250px;
   }
   .post .post-content {
     width: 100%;

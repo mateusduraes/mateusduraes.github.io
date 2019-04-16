@@ -3,7 +3,7 @@
   title: Type Guards com In & Is
   date: 2019-03-24 20:00:00
   description: Conheça duas técnicas de Type Guard
-  img: typescript-series/numeric-separator/post-image.png
+  img: typescript-series/in-&-is-operator/post-image.png
   tags: [codequality, goodpractices, ts, typescript, typescriptseries] 
 ---
 

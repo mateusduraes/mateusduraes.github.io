@@ -3,7 +3,7 @@
   title: TypeScript Partial Type
   date: 2019-04-13 12:00:00
   description: Conheça o Partial type e nunca mais modifique suas interfaces de forma errônea para atender uma função
-  img: typescript-series/numeric-separator/post-image.png
+  img: typescript-series/partial-type/post-image.png
   tags: [codequality, goodpractices, ts, typescript, typescriptseries] 
 ---
 
