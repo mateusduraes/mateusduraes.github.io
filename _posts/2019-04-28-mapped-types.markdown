@@ -89,7 +89,7 @@ interface NullableUser {
 }
 ```
 
-Também é possível em um Mapped Type usar os operadores de '+' e '-' (de maneira opcional), eles irão melhorar muito a semântica do seu Mapped Type facilitando o entendimento do que está sendo mudado.
+Também é possível em um Mapped Type usar os operadores de **+** e **-** (de maneira opcional), eles irão melhorar muito a semântica do seu Mapped Type facilitando o entendimento do que está sendo mudado.
 
 ```typescript
 type ReadonlyStringify<T> = {
@@ -103,6 +103,6 @@ type Full<T> = {
 }
 ```
 
-É isso, espero que você consiga aplicar os Mapped Types para dar mais poder ao seu código, vejo muitos cenários em que desenvolvedores alteram as interfaces já existentes para atender algum cenário de desenvolvimento, e, muitas vezes, o Mapped Type é um caminho melhor pois você não terá de alterar as interfaces já existentes evitando assim furos na sua tipagem.
+É isso, espero que você consiga aplicar os Mapped Types para dar mais poder ao seu código, vejo muitos cenários em que desenvolvedores alteram as interfaces já existentes para atender alguma situação específica, e, muitas vezes, o Mapped Type é um caminho melhor pois você não terá de alterar as interfaces já existentes evitando assim furos na sua tipagem.
 
 Hoje fico por aqui, obrigado! :+1:
