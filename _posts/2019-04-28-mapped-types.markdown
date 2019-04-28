@@ -7,7 +7,7 @@
   tags: [codequality, goodpractices, ts, typescript, typescriptseries] 
 ---
 
-Olá, esse é o **quarto e últomo post** de uma **série de posts** sobre TypeScript.
+Olá, esse é o **quarto e último post** de uma **série de posts** sobre TypeScript.
 Caso você tenha perdido os posts anteriores, você pode acessá-los através dos links abaixo:
   * [Numeric Seperator](/typescript-numeric-separator)  
   * [Typeguards com o In e Is operators](/typescript-typeguards-in-is/)
