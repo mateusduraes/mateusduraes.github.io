@@ -30,7 +30,7 @@ plugins_dir:
 # Gems
 plugins: [jekyll-paginate, jemoji, github-pages]
 
-paginate: 4
+paginate: 6
 paginate_path: "/page/:num"
 
 
