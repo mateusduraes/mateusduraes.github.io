@@ -13,6 +13,7 @@ Olá, esse é o **primeiro post** de uma **série de posts** que irei fazer sobr
   * [Numeric Seperator](/typescript-numeric-separator) 
   * [Typeguards com o In e Is operators](/typescript-typeguards-in-is/)
   * [Partial Type](/typescript-partial-type/)
+  * [Mapped Types](/mapped-types/)
 
 Então vamos lá! É hora de conhecer este recurso pouco utilizado e que pode tornar seu código mais legível em algumas situações.
 

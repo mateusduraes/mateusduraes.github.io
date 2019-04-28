@@ -13,6 +13,7 @@ Olá, esse é o **segundo post** de uma **série de posts** que estou fazendo so
   * [Numeric Seperator](/typescript-numeric-separator) 
   * [Typeguards com o In e Is operators](/typescript-typeguards-in-is/)
   * [Partial Type](/typescript-partial-type/)
+  * [Mapped Types](/mapped-types/)
 
 Hoje vou abordar o uso do **In** e do **Is** como formas de type guards em contextos de código genérico.
 
