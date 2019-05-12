@@ -4,7 +4,7 @@
   date: 2018-10-20 23:50:00
   description: Um simples tutorial sobre como utilizar os recursos do googlemaps com o Ionic 4.
   img: maps-ionic-4/maps.jpg
-  tags: [ionic, googlemaps] 
+  tags: [ionic] 
 ---
 
 Você tem dúvidas de como usar os recursos do Googlemaps em seu projeto Ionic? Então vamos lá!

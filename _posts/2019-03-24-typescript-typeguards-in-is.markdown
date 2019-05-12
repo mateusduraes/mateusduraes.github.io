@@ -4,7 +4,7 @@
   date: 2019-03-24 20:00:00
   description: Conheça duas técnicas de Type Guard
   img: typescript-series/in-&-is-operator/post-image.png
-  tags: [codequality, goodpractices, ts, typescript, typescriptseries] 
+  tags: [typescript] 
 ---
 
 Olá, esse é o **segundo post** de uma **série de posts** que estou fazendo sobre TypeScript.

@@ -4,7 +4,7 @@
   date: 2019-02-02 12:00:00
   description: Aprenda a blindar o código do seu repositório remoto com o poder dos hooks do git!
   img: hooks-com-husky/post-image.jpg
-  tags: [codequality, goodpractices, ci, git] 
+  tags: [codequality] 
 ---
 
 Aprenda a blindar o código do seu repositório remoto com o poder dos hooks do git!

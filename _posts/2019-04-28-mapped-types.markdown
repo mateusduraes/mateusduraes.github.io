@@ -4,7 +4,7 @@
   date: 2019-04-28 12:00:00
   description: Modificando tipos já existentes
   img: typescript-series/mapped-types/post-image.png
-  tags: [codequality, goodpractices, ts, typescript, typescriptseries] 
+  tags: [typescript] 
 ---
 
 Olá, esse é o **quarto e último post** de uma **série de posts** sobre TypeScript.

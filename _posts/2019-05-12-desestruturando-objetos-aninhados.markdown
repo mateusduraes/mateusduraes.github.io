@@ -3,7 +3,7 @@
   title: JavaScript - Desestruturando objetos aninhados
   date: 2019-05-12 01:00:00
   description: Desestruturar objetos é uma das features mais interessantes do ES6, mas quando se trata de objetos aninhados, muita gente ainda dificuldade!
-  tags: [javascript, es6] 
+  tags: [javascript] 
 ---
 
 Desestruturar objetos é uma das features mais interessantes do ES6, mas quando se trata de objetos aninhados, muita gente ainda possui algumas dúvidas.

@@ -4,7 +4,7 @@
   date: 2019-01-11 18:00:00
   description: Aprenda a configurar o Bitbucket Pipelines para conversar com o Firebase Hosting!
   img: angular-firebase-pipelines/post-image.png
-  tags: [firebase, angular, hosting, bitbucket, deploy, ci] 
+  tags: [continuous-integration] 
 ---
 
 Aprenda a configurar o Bitbucket Pipelines para conversar com o Firebase Hosting!

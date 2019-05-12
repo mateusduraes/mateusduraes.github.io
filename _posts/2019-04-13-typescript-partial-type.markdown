@@ -4,7 +4,7 @@
   date: 2019-04-13 12:00:00
   description: Conheça o Partial type e nunca mais modifique suas interfaces de forma errônea para atender uma função
   img: typescript-series/partial-type/post-image.png
-  tags: [codequality, goodpractices, ts, typescript, typescriptseries] 
+  tags: [typescript] 
 ---
 
 Olá, esse é o **terceiro e penúltmimo post** de uma **série de posts** que estou fazendo sobre TypeScript.

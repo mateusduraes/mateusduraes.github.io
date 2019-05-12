@@ -4,7 +4,7 @@
   date: 2019-03-17 12:00:00
   description: Melhore a legibilidade do código com este recurso do TypeScript!
   img: typescript-series/numeric-separator/post-image.png
-  tags: [codequality, goodpractices, ts, typescript, typescriptseries] 
+  tags: [typescript] 
 ---
 
 Olá, esse é o **primeiro post** de uma **série de posts** que irei fazer sobre recursos interessantes e pouco utilizados do [TypeScript](https://www.typescriptlang.org/) :sunglasses: 
