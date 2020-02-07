@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Apresentação do Blog!"
+date:   2016-08-29 23:12:40
+categories: bemvindo
+resumo: Bem vindo ao blog!!
+---
+
+### Como surgiu o blog
+
+Olá, me chamo Mateus e criei esse blog a princípio apenas por curiosidade para aprender o <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, pretendo aqui falar sobre desenvolvimento e compartilhar o que aprendo no dia a dia!
+As tecnologias que você provavelmente irá encontrar aqui serão Java, PHP, JavaScript, Linux e SQL. Bom, pelo menos são as que tenho em mente agora.
+
+<b>É isso! Todo feedback aqui no blog será muito bem vindo</b>, vamos fazer deste um bom portal de conhecimento.
+<br/>
+Conto com você, obrigado!
