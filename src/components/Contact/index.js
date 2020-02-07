@@ -17,7 +17,12 @@ const Contact = () => {
 
           return (
             <li key={i}>
-              <a href={link.url} title={link.label} target="_blank">
+              <a
+                href={link.url}
+                title={link.label}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <S.ContactIconContainer>
                   <Icon />
                 </S.ContactIconContainer>
