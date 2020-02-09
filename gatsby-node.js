@@ -56,7 +56,7 @@ exports.createPages = ({ graphql, actions }) => {
     })
 
     // Pagination
-    const articlesPerPage = 8
+    const articlesPerPage = 10
     const numPages = Math.ceil(articles.length / articlesPerPage)
 
     Array.from({ length: numPages }).forEach((_, i) => {

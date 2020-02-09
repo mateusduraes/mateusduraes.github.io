@@ -45,7 +45,6 @@ const ArticleList = props => {
           )
         )}
       </ArticleListWrapper>
-
       <Pager
         currentPage={currentPage}
         numPages={numPages}

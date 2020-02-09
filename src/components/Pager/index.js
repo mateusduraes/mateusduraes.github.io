@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
+
+import * as S from "./styled"
 
 const Pager = ({
   isFirst,
@@ -11,21 +12,29 @@ const Pager = ({
   nextPageLink,
 }) => {
   return (
-    <div>
+    <S.PagerContainer>
       {!isFirst && (
-        <Link to={prevPageLink} rel="prev">
+        <S.PagerLink
+          to={prevPageLink}
+          rel="prev"
+          style={{ marginRight: "1rem" }}
+        >
           ← Previous page
-        </Link>
+        </S.PagerLink>
       )}
       <p>
-        {currentPage} de {numPages}
+        Page {currentPage} of {numPages}
       </p>
       {!isLast && (
-        <Link to={nextPageLink} rel="next">
+        <S.PagerLink
+          to={nextPageLink}
+          rel="next"
+          style={{ marginLeft: "1rem" }}
+        >
           Next page →
-        </Link>
+        </S.PagerLink>
       )}
-    </div>
+    </S.PagerContainer>
   )
 }
 
